@@ -114,3 +114,9 @@ Attaching to tomcat, jenkins
 [33mjenkins    |[0m INFO: Jenkins is fully up and running
 [33mjenkins    |[0m Aug 28, 2019 7:20:36 PM jenkinsci.plugins.telegrambot.telegram.TelegramBotRunner createBotSession
 [33mjenkins    |[0m INFO: New bot session was registered
+[33mjenkins    |[0m Aug 28, 2019 7:22:01 PM hudson.triggers.SCMTrigger$Runner run
+[33mjenkins    |[0m INFO: SCM changes detected in Git Sync. Triggering  #11
+[33mjenkins    |[0m Aug 28, 2019 7:22:12 PM hudson.model.Run execute
+[33mjenkins    |[0m INFO: Git Sync #11 main build action completed: SUCCESS
+[33mjenkins    |[0m Aug 28, 2019 7:23:11 PM hudson.model.Run execute
+[33mjenkins    |[0m INFO: Git Sync #12 main build action completed: SUCCESS
