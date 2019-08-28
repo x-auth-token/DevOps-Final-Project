@@ -1,0 +1,114 @@
+Attaching to tomcat, jenkins
+[33mjenkins    |[0m Running from: /usr/share/jenkins/jenkins.war
+[33mjenkins    |[0m webroot: EnvVars.masterEnvVars.get("JENKINS_HOME")
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.45
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 14 2019 22:21:25 UTC
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.45.0
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.2.0-kali2-amd64
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/openjdk-8/jre
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_222-b10
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.589 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.5.2].
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.589 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.589 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.594 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.0k  28 May 2019]
+[33mjenkins    |[0m Aug 28, 2019 6:37:19 PM org.eclipse.jetty.util.log.Log initialized
+[33mjenkins    |[0m INFO: Logging initialized @446ms to org.eclipse.jetty.util.log.JavaUtilLog
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.671 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.682 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.697 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.699 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.700 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 466 ms
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.729 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.729 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.45
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.737 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/docs]
+[33mjenkins    |[0m Aug 28, 2019 6:37:19 PM winstone.Logger logInternal
+[33mjenkins    |[0m INFO: Beginning extraction from war file
+[33mjenkins    |[0m Aug 28, 2019 6:37:19 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+[33mjenkins    |[0m WARNING: Empty contextPath
+[33mjenkins    |[0m Aug 28, 2019 6:37:19 PM org.eclipse.jetty.server.Server doStart
+[33mjenkins    |[0m INFO: jetty-9.4.z-SNAPSHOT; built: 2019-02-15T16:53:49.381Z; git: eb70b240169fcf1abbd86af36482d1c49826fa0b; jvm 1.8.0_212-b04
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.960 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/docs] has finished in [223] ms
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.960 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/host-manager]
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.989 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/host-manager] has finished in [29] ms
+[36mtomcat     |[0m 28-Aug-2019 18:37:19.989 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/manager]
+[36mtomcat     |[0m 28-Aug-2019 18:37:20.008 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/manager] has finished in [19] ms
+[36mtomcat     |[0m 28-Aug-2019 18:37:20.009 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
+[36mtomcat     |[0m 28-Aug-2019 18:37:20.025 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [16] ms
+[36mtomcat     |[0m 28-Aug-2019 18:37:20.025 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/examples]
+[33mjenkins    |[0m Aug 28, 2019 6:37:20 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+[33mjenkins    |[0m INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+[33mjenkins    |[0m Aug 28, 2019 6:37:20 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+[33mjenkins    |[0m INFO: DefaultSessionIdManager workerName=node0
+[33mjenkins    |[0m Aug 28, 2019 6:37:20 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+[33mjenkins    |[0m INFO: No SessionScavenger set, using defaults
+[33mjenkins    |[0m Aug 28, 2019 6:37:20 PM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+[33mjenkins    |[0m INFO: node0 Scavenging every 600000ms
+[36mtomcat     |[0m 28-Aug-2019 18:37:20.285 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/examples] has finished in [260] ms
+[36mtomcat     |[0m 28-Aug-2019 18:37:20.286 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/status]
+[36mtomcat     |[0m 28-Aug-2019 18:37:20.385 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/status] has finished in [99] ms
+[36mtomcat     |[0m 28-Aug-2019 18:37:20.389 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+[36mtomcat     |[0m 28-Aug-2019 18:37:20.420 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+[36mtomcat     |[0m 28-Aug-2019 18:37:20.447 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 746 ms
+[33mjenkins    |[0m Jenkins home directory: /var/jenkins_home found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+[33mjenkins    |[0m Aug 28, 2019 6:37:20 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+[33mjenkins    |[0m INFO: Started w.@5dafbe45{Jenkins v2.176.2,/,file:///var/jenkins_home/war/,AVAILABLE}{/var/jenkins_home/war}
+[33mjenkins    |[0m Aug 28, 2019 6:37:20 PM org.eclipse.jetty.server.AbstractConnector doStart
+[33mjenkins    |[0m INFO: Started ServerConnector@29f7cefd{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+[33mjenkins    |[0m Aug 28, 2019 6:37:20 PM org.eclipse.jetty.server.Server doStart
+[33mjenkins    |[0m INFO: Started @1521ms
+[33mjenkins    |[0m Aug 28, 2019 6:37:20 PM winstone.Logger logInternal
+[33mjenkins    |[0m INFO: Winstone Servlet Engine v4.0 running: controlPort=disabled
+[33mjenkins    |[0m Aug 28, 2019 6:37:22 PM jenkins.InitReactorRunner$1 onAttained
+[33mjenkins    |[0m INFO: Started initialization
+[33mjenkins    |[0m Aug 28, 2019 6:37:22 PM jenkins.InitReactorRunner$1 onAttained
+[33mjenkins    |[0m INFO: Listed all plugins
+[33mjenkins    |[0m Aug 28, 2019 6:37:27 PM jenkins.InitReactorRunner$1 onAttained
+[33mjenkins    |[0m INFO: Prepared all plugins
+[33mjenkins    |[0m Aug 28, 2019 6:37:27 PM jenkins.InitReactorRunner$1 onAttained
+[33mjenkins    |[0m INFO: Started all plugins
+[33mjenkins    |[0m Aug 28, 2019 6:37:28 PM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+[33mjenkins    |[0m INFO: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+[33mjenkins    |[0m Aug 28, 2019 6:37:28 PM jenkins.InitReactorRunner$1 onAttained
+[33mjenkins    |[0m INFO: Augmented all extensions
+[33mjenkins    |[0m Aug 28, 2019 6:37:28 PM jenkins.InitReactorRunner$1 onAttained
+[33mjenkins    |[0m INFO: Loaded all jobs
+[33mjenkins    |[0m Aug 28, 2019 6:37:28 PM hudson.model.AsyncPeriodicWork$1 run
+[33mjenkins    |[0m INFO: Started Download metadata
+[33mjenkins    |[0m Aug 28, 2019 6:37:28 PM hudson.model.AsyncPeriodicWork$1 run
+[33mjenkins    |[0m INFO: Finished Download metadata. 25 ms
+[33mjenkins    |[0m Aug 28, 2019 6:37:28 PM jenkinsci.plugins.telegrambot.telegram.TelegramBot initializeProxy
+[33mjenkins    |[0m INFO: Proxy successfully initialized
+[33mjenkins    |[0m Aug 28, 2019 6:37:28 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+[33mjenkins    |[0m INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@15471599: display name [Root WebApplicationContext]; startup date [Wed Aug 28 18:37:28 UTC 2019]; root of context hierarchy
+[33mjenkins    |[0m Aug 28, 2019 6:37:28 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+[33mjenkins    |[0m INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@15471599]: org.springframework.beans.factory.support.DefaultListableBeanFactory@2247fdef
+[33mjenkins    |[0m Aug 28, 2019 6:37:28 PM jenkinsci.plugins.telegrambot.telegram.TelegramBotRunner lambda$new$0
+[33mjenkins    |[0m INFO: Bot was created
+[33mjenkins    |[0m Aug 28, 2019 6:37:29 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+[33mjenkins    |[0m INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2247fdef: defining beans [authenticationManager]; root of factory hierarchy
+[33mjenkins    |[0m Aug 28, 2019 6:37:29 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+[33mjenkins    |[0m INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@7d5ec761: display name [Root WebApplicationContext]; startup date [Wed Aug 28 18:37:29 UTC 2019]; root of context hierarchy
+[33mjenkins    |[0m Aug 28, 2019 6:37:29 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+[33mjenkins    |[0m INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@7d5ec761]: org.springframework.beans.factory.support.DefaultListableBeanFactory@67bbbb65
+[33mjenkins    |[0m Aug 28, 2019 6:37:29 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+[33mjenkins    |[0m INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@67bbbb65: defining beans [filter,legacy]; root of factory hierarchy
+[33mjenkins    |[0m Aug 28, 2019 6:37:29 PM jenkins.InitReactorRunner$1 onAttained
+[33mjenkins    |[0m INFO: Completed initialization
+[33mjenkins    |[0m Aug 28, 2019 6:37:29 PM hudson.WebAppMain$3 run
+[33mjenkins    |[0m INFO: Jenkins is fully up and running
+[33mjenkins    |[0m Aug 28, 2019 6:37:30 PM jenkinsci.plugins.telegrambot.telegram.TelegramBotRunner createBotSession
+[33mjenkins    |[0m INFO: New bot session was registered
