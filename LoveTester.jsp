@@ -8,7 +8,7 @@
 </head>
 <body>
 <center>
-<h2>Love Tester</h2>
+<h1>Love Tester</h1>
 <SCRIPT LANGUAGE="JavaScript">
 <!-- Begin
 function calc() {

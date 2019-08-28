@@ -1,0 +1,72 @@
+Attaching to jenkins
+[36mjenkins    |[0m Running from: /usr/share/jenkins/jenkins.war
+[36mjenkins    |[0m webroot: EnvVars.masterEnvVars.get("JENKINS_HOME")
+[36mjenkins    |[0m Aug 28, 2019 6:45:07 PM org.eclipse.jetty.util.log.Log initialized
+[36mjenkins    |[0m INFO: Logging initialized @389ms to org.eclipse.jetty.util.log.JavaUtilLog
+[36mjenkins    |[0m Aug 28, 2019 6:45:07 PM winstone.Logger logInternal
+[36mjenkins    |[0m INFO: Beginning extraction from war file
+[36mjenkins    |[0m Aug 28, 2019 6:45:07 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+[36mjenkins    |[0m WARNING: Empty contextPath
+[36mjenkins    |[0m Aug 28, 2019 6:45:07 PM org.eclipse.jetty.server.Server doStart
+[36mjenkins    |[0m INFO: jetty-9.4.z-SNAPSHOT; built: 2019-02-15T16:53:49.381Z; git: eb70b240169fcf1abbd86af36482d1c49826fa0b; jvm 1.8.0_212-b04
+[36mjenkins    |[0m Aug 28, 2019 6:45:08 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+[36mjenkins    |[0m INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+[36mjenkins    |[0m Aug 28, 2019 6:45:08 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+[36mjenkins    |[0m INFO: DefaultSessionIdManager workerName=node0
+[36mjenkins    |[0m Aug 28, 2019 6:45:08 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+[36mjenkins    |[0m INFO: No SessionScavenger set, using defaults
+[36mjenkins    |[0m Aug 28, 2019 6:45:08 PM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+[36mjenkins    |[0m INFO: node0 Scavenging every 600000ms
+[36mjenkins    |[0m Jenkins home directory: /var/jenkins_home found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+[36mjenkins    |[0m Aug 28, 2019 6:45:08 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+[36mjenkins    |[0m INFO: Started w.@5dafbe45{Jenkins v2.176.2,/,file:///var/jenkins_home/war/,AVAILABLE}{/var/jenkins_home/war}
+[36mjenkins    |[0m Aug 28, 2019 6:45:08 PM org.eclipse.jetty.server.AbstractConnector doStart
+[36mjenkins    |[0m INFO: Started ServerConnector@29f7cefd{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+[36mjenkins    |[0m Aug 28, 2019 6:45:08 PM org.eclipse.jetty.server.Server doStart
+[36mjenkins    |[0m INFO: Started @1226ms
+[36mjenkins    |[0m Aug 28, 2019 6:45:08 PM winstone.Logger logInternal
+[36mjenkins    |[0m INFO: Winstone Servlet Engine v4.0 running: controlPort=disabled
+[36mjenkins    |[0m Aug 28, 2019 6:45:10 PM jenkins.InitReactorRunner$1 onAttained
+[36mjenkins    |[0m INFO: Started initialization
+[36mjenkins    |[0m Aug 28, 2019 6:45:10 PM jenkins.InitReactorRunner$1 onAttained
+[36mjenkins    |[0m INFO: Listed all plugins
+[36mjenkins    |[0m Aug 28, 2019 6:45:15 PM jenkins.InitReactorRunner$1 onAttained
+[36mjenkins    |[0m INFO: Prepared all plugins
+[36mjenkins    |[0m Aug 28, 2019 6:45:15 PM jenkins.InitReactorRunner$1 onAttained
+[36mjenkins    |[0m INFO: Started all plugins
+[36mjenkins    |[0m Aug 28, 2019 6:45:16 PM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+[36mjenkins    |[0m INFO: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+[36mjenkins    |[0m Aug 28, 2019 6:45:16 PM jenkins.InitReactorRunner$1 onAttained
+[36mjenkins    |[0m INFO: Augmented all extensions
+[36mjenkins    |[0m Aug 28, 2019 6:45:16 PM jenkins.InitReactorRunner$1 onAttained
+[36mjenkins    |[0m INFO: Loaded all jobs
+[36mjenkins    |[0m Aug 28, 2019 6:45:16 PM hudson.model.AsyncPeriodicWork$1 run
+[36mjenkins    |[0m INFO: Started Download metadata
+[36mjenkins    |[0m Aug 28, 2019 6:45:16 PM hudson.model.AsyncPeriodicWork$1 run
+[36mjenkins    |[0m INFO: Finished Download metadata. 3 ms
+[36mjenkins    |[0m Aug 28, 2019 6:45:16 PM jenkinsci.plugins.telegrambot.telegram.TelegramBot initializeProxy
+[36mjenkins    |[0m INFO: Proxy successfully initialized
+[36mjenkins    |[0m Aug 28, 2019 6:45:16 PM jenkinsci.plugins.telegrambot.telegram.TelegramBotRunner lambda$new$0
+[36mjenkins    |[0m INFO: Bot was created
+[36mjenkins    |[0m Aug 28, 2019 6:45:17 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+[36mjenkins    |[0m INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@1308e2a2: display name [Root WebApplicationContext]; startup date [Wed Aug 28 18:45:17 UTC 2019]; root of context hierarchy
+[36mjenkins    |[0m Aug 28, 2019 6:45:17 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+[36mjenkins    |[0m INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@1308e2a2]: org.springframework.beans.factory.support.DefaultListableBeanFactory@7e5e9994
+[36mjenkins    |[0m Aug 28, 2019 6:45:17 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+[36mjenkins    |[0m INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7e5e9994: defining beans [authenticationManager]; root of factory hierarchy
+[36mjenkins    |[0m Aug 28, 2019 6:45:17 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+[36mjenkins    |[0m INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@3d5f0704: display name [Root WebApplicationContext]; startup date [Wed Aug 28 18:45:17 UTC 2019]; root of context hierarchy
+[36mjenkins    |[0m Aug 28, 2019 6:45:17 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+[36mjenkins    |[0m INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@3d5f0704]: org.springframework.beans.factory.support.DefaultListableBeanFactory@3da60f14
+[36mjenkins    |[0m Aug 28, 2019 6:45:17 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+[36mjenkins    |[0m INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3da60f14: defining beans [filter,legacy]; root of factory hierarchy
+[36mjenkins    |[0m Aug 28, 2019 6:45:17 PM jenkins.InitReactorRunner$1 onAttained
+[36mjenkins    |[0m INFO: Completed initialization
+[36mjenkins    |[0m Aug 28, 2019 6:45:17 PM hudson.WebAppMain$3 run
+[36mjenkins    |[0m INFO: Jenkins is fully up and running
+[36mjenkins    |[0m Aug 28, 2019 6:45:17 PM jenkinsci.plugins.telegrambot.telegram.TelegramBotRunner createBotSession
+[36mjenkins    |[0m INFO: New bot session was registered
+[36mjenkins    |[0m Aug 28, 2019 6:46:29 PM winstone.Logger logInternal
+[36mjenkins    |[0m INFO: JVM is terminating. Shutting down Jetty
+[36mjenkins exited with code 143
+[0m
