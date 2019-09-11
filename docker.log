@@ -120,3 +120,22 @@ Attaching to tomcat, jenkins
 [33mjenkins    |[0m INFO: Git Sync #11 main build action completed: SUCCESS
 [33mjenkins    |[0m Aug 28, 2019 7:23:11 PM hudson.model.Run execute
 [33mjenkins    |[0m INFO: Git Sync #12 main build action completed: SUCCESS
+[33mjenkins    |[0m Aug 28, 2019 7:24:01 PM hudson.triggers.SCMTrigger$Runner run
+[33mjenkins    |[0m INFO: SCM changes detected in Git Sync. Triggering  #13
+[33mjenkins    |[0m Aug 28, 2019 7:24:12 PM hudson.model.Run execute
+[33mjenkins    |[0m INFO: Git Sync #13 main build action completed: SUCCESS
+[33mjenkins    |[0m Aug 28, 2019 7:27:00 PM jenkinsci.plugins.telegrambot.telegram.TelegramBotRunner lambda$new$0
+[33mjenkins    |[0m INFO: There is no reason for bot recreating
+[33mjenkins    |[0m Aug 28, 2019 7:27:03 PM jenkinsci.plugins.telegrambot.telegram.TelegramBotRunner lambda$new$0
+[33mjenkins    |[0m INFO: There is no reason for bot recreating
+[33mjenkins    |[0m Aug 28, 2019 7:32:24 PM jenkinsci.plugins.telegrambot.telegram.TelegramBotRunner lambda$new$0
+[33mjenkins    |[0m INFO: There is no reason for bot recreating
+[33mjenkins    |[0m Aug 28, 2019 7:32:27 PM jenkinsci.plugins.telegrambot.telegram.TelegramBotRunner lambda$new$0
+[33mjenkins    |[0m INFO: There is no reason for bot recreating
+[33mjenkins    |[0m Aug 28, 2019 7:32:36 PM hudson.model.Run execute
+[33mjenkins    |[0m INFO: Git Sync #14 main build action completed: SUCCESS
+[33mjenkins    |[0m Aug 28, 2019 7:46:12 PM winstone.Logger logInternal
+[33mjenkins    |[0m INFO: JVM is terminating. Shutting down Jetty
+[36mtomcat     |[0m 28-Aug-2019 19:46:12.857 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+[36mtomcat     |[0m 28-Aug-2019 19:46:12.867 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+[36mtomcat     |[0m 28-Aug-2019 19:46:12.868 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
